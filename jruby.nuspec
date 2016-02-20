@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>jruby</id>
-        <title>JRuby Extension</title>
-        <version>9.0.5.1</version>
-        <authors>shibayan</authors>
-        <licenseUrl>https://github.com/shibayan/JRubyExtension/blob/master/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/shibayan/JRubyExtension</projectUrl>
+        <id>jruby_by_ipepe</id>
+        <title>jruby by ipepe</title>
+        <version>0.4.9000</version>
+        <authors>shibayan_and_ipepe</authors>
+        <licenseUrl>https://github.com/ipepe/JRubyExtension/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/ipepe/JRubyExtension</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>JRuby Extension for Azure Web Apps</description>
+        <description>JRuby Site Extension for Azure Web Apps. Versioning patter is following (major).(minor).(jruby_version)</description>
         <tags>ruby</tags>
     </metadata>
     <files>
