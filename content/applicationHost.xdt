@@ -3,7 +3,6 @@
   <system.webServer>
     <runtime xdt:Transform="Insert">
       <environmentVariables>
-        <!--add name="APPSETTING_COMMAND" value="%XDT_EXTENSIONPATH%\deploy.cmd" /-->
         <add name="PATH" value="%XDT_EXTENSIONPATH%\jruby-9.0.0.0\bin;%PATH%" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
         <add name="JRUBY_HOME" value="%XDT_EXTENSIONPATH%\jruby-9.0.0.0" />
         <add name="JAVA_OPTS" value="-Djava.net.preferIPv4Stack=true" />
